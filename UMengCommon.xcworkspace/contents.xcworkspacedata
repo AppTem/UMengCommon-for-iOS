@@ -5,6 +5,9 @@
       location = "group:UMengCommonDemo/UMengCommonDemo.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:UMengAnalyticsANE/UMengAnalyticsANE.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:UMengCommonANE/UMengCommonANE.xcodeproj">
    </FileRef>
    <FileRef

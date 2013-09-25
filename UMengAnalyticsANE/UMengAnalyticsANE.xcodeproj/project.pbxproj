@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8810631E17AD074C009F77CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810631D17AD074C009F77CD /* Foundation.framework */; };
+		8810632017AD074C009F77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810631F17AD074C009F77CD /* CoreFoundation.framework */; };
+		8810632217AD074C009F77CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632117AD074C009F77CD /* UIKit.framework */; };
+		8810632417AD074C009F77CD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632317AD074C009F77CD /* MobileCoreServices.framework */; };
+		8810632617AD074C009F77CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632517AD074C009F77CD /* CoreGraphics.framework */; };
+		8810632817AD074C009F77CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632717AD074C009F77CD /* SystemConfiguration.framework */; };
+		8810632A17AD074C009F77CD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632917AD074C009F77CD /* AudioToolbox.framework */; };
+		8810632C17AD074C009F77CD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632B17AD074C009F77CD /* CFNetwork.framework */; };
+		8810632E17AD074C009F77CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632D17AD074C009F77CD /* QuartzCore.framework */; };
+		8810633017AD074C009F77CD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810632F17AD074C009F77CD /* OpenGLES.framework */; };
+		8810633217AD074C009F77CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810633117AD074C009F77CD /* CoreLocation.framework */; };
+		8810633417AD074C009F77CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810633317AD074C009F77CD /* CoreMedia.framework */; };
+		8810633617AD074C009F77CD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810633517AD074C009F77CD /* CoreVideo.framework */; };
+		8810633817AD074C009F77CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810633717AD074C009F77CD /* AVFoundation.framework */; };
+		8810633A17AD074C009F77CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810633917AD074C009F77CD /* Security.framework */; };
+		8810634A17AD074C009F77CD /* UMengAnalyticsANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 8810634917AD074C009F77CD /* UMengAnalyticsANE.m */; };
+		8810636117AD0F35009F77CD /* UMengAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8810636017AD0F35009F77CD /* UMengAnalytics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8810634117AD074C009F77CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8810631217AD074C009F77CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8810631917AD074C009F77CD;
+			remoteInfo = UMengAnalyticsANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8810631A17AD074C009F77CD /* libUMengAnalyticsANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUMengAnalyticsANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8810631D17AD074C009F77CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8810631F17AD074C009F77CD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8810632117AD074C009F77CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8810632317AD074C009F77CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8810632517AD074C009F77CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8810632717AD074C009F77CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8810632917AD074C009F77CD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8810632B17AD074C009F77CD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8810632D17AD074C009F77CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8810632F17AD074C009F77CD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8810633117AD074C009F77CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8810633317AD074C009F77CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8810633517AD074C009F77CD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8810633717AD074C009F77CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8810633917AD074C009F77CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8810633D17AD074C009F77CD /* UMengAnalyticsANE.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = UMengAnalyticsANE.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		8810634717AD074C009F77CD /* UMengAnalyticsANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengAnalyticsANE-Prefix.pch"; sourceTree = "<group>"; };
+		8810634817AD074C009F77CD /* UMengAnalyticsANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsANE.h; sourceTree = "<group>"; };
+		8810634917AD074C009F77CD /* UMengAnalyticsANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsANE.m; sourceTree = "<group>"; };
+		8810634B17AD074C009F77CD /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		8810634C17AD074C009F77CD /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		8810634D17AD074C009F77CD /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		8810636017AD0F35009F77CD /* UMengAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMengAnalytics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8810631717AD074C009F77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810631E17AD074C009F77CD /* Foundation.framework in Frameworks */,
+				8810632017AD074C009F77CD /* CoreFoundation.framework in Frameworks */,
+				8810632217AD074C009F77CD /* UIKit.framework in Frameworks */,
+				8810632417AD074C009F77CD /* MobileCoreServices.framework in Frameworks */,
+				8810632617AD074C009F77CD /* CoreGraphics.framework in Frameworks */,
+				8810632817AD074C009F77CD /* SystemConfiguration.framework in Frameworks */,
+				8810632A17AD074C009F77CD /* AudioToolbox.framework in Frameworks */,
+				8810632C17AD074C009F77CD /* CFNetwork.framework in Frameworks */,
+				8810632E17AD074C009F77CD /* QuartzCore.framework in Frameworks */,
+				8810633017AD074C009F77CD /* OpenGLES.framework in Frameworks */,
+				8810633217AD074C009F77CD /* CoreLocation.framework in Frameworks */,
+				8810633417AD074C009F77CD /* CoreMedia.framework in Frameworks */,
+				8810633617AD074C009F77CD /* CoreVideo.framework in Frameworks */,
+				8810633817AD074C009F77CD /* AVFoundation.framework in Frameworks */,
+				8810633A17AD074C009F77CD /* Security.framework in Frameworks */,
+				8810636117AD0F35009F77CD /* UMengAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8810631117AD074C009F77CD = {
+			isa = PBXGroup;
+			children = (
+				8810634517AD074C009F77CD /* UMengAnalyticsANE */,
+				8810631C17AD074C009F77CD /* Frameworks */,
+				8810631B17AD074C009F77CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8810631B17AD074C009F77CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8810631A17AD074C009F77CD /* libUMengAnalyticsANE.a */,
+				8810633D17AD074C009F77CD /* UMengAnalyticsANE.ane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8810631C17AD074C009F77CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8810636017AD0F35009F77CD /* UMengAnalytics.framework */,
+				8810631D17AD074C009F77CD /* Foundation.framework */,
+				8810631F17AD074C009F77CD /* CoreFoundation.framework */,
+				8810632117AD074C009F77CD /* UIKit.framework */,
+				8810632317AD074C009F77CD /* MobileCoreServices.framework */,
+				8810632517AD074C009F77CD /* CoreGraphics.framework */,
+				8810632717AD074C009F77CD /* SystemConfiguration.framework */,
+				8810632917AD074C009F77CD /* AudioToolbox.framework */,
+				8810632B17AD074C009F77CD /* CFNetwork.framework */,
+				8810632D17AD074C009F77CD /* QuartzCore.framework */,
+				8810632F17AD074C009F77CD /* OpenGLES.framework */,
+				8810633117AD074C009F77CD /* CoreLocation.framework */,
+				8810633317AD074C009F77CD /* CoreMedia.framework */,
+				8810633517AD074C009F77CD /* CoreVideo.framework */,
+				8810633717AD074C009F77CD /* AVFoundation.framework */,
+				8810633917AD074C009F77CD /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8810634517AD074C009F77CD /* UMengAnalyticsANE */ = {
+			isa = PBXGroup;
+			children = (
+				8810634817AD074C009F77CD /* UMengAnalyticsANE.h */,
+				8810634917AD074C009F77CD /* UMengAnalyticsANE.m */,
+				8810634617AD074C009F77CD /* Supporting Files */,
+			);
+			path = UMengAnalyticsANE;
+			sourceTree = "<group>";
+		};
+		8810634617AD074C009F77CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8810634717AD074C009F77CD /* UMengAnalyticsANE-Prefix.pch */,
+				8810634B17AD074C009F77CD /* extension.xml */,
+				8810634C17AD074C009F77CD /* platformoptions.xml */,
+				8810634D17AD074C009F77CD /* generateANE.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8810631817AD074C009F77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8810631917AD074C009F77CD /* UMengAnalyticsANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8810635117AD074C009F77CD /* Build configuration list for PBXNativeTarget "UMengAnalyticsANE" */;
+			buildPhases = (
+				8810635F17AD0DFD009F77CD /* ShellScript */,
+				8810631617AD074C009F77CD /* Sources */,
+				8810631717AD074C009F77CD /* Frameworks */,
+				8810631817AD074C009F77CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengAnalyticsANE;
+			productName = UMengAnalyticsANE;
+			productReference = 8810631A17AD074C009F77CD /* libUMengAnalyticsANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8810633C17AD074C009F77CD /* UMengAnalyticsANE.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8810635417AD074C009F77CD /* Build configuration list for PBXNativeTarget "UMengAnalyticsANE.ane" */;
+			buildPhases = (
+				8810633B17AD074C009F77CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8810634217AD074C009F77CD /* PBXTargetDependency */,
+			);
+			name = UMengAnalyticsANE.ane;
+			productName = UMengAnalyticsANE.ane;
+			productReference = 8810633D17AD074C009F77CD /* UMengAnalyticsANE.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8810631217AD074C009F77CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 8810631517AD074C009F77CD /* Build configuration list for PBXProject "UMengAnalyticsANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8810631117AD074C009F77CD;
+			productRefGroup = 8810631B17AD074C009F77CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8810631917AD074C009F77CD /* UMengAnalyticsANE */,
+				8810633C17AD074C009F77CD /* UMengAnalyticsANE.ane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8810633B17AD074C009F77CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+		8810635F17AD0DFD009F77CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORKPATH=${PROJECT_DIR}/UMengAnalytics.framework\n\nif [ ! -d $FRAMEWORKPATH ]; then\nmkdir -p $FRAMEWORKPATH/Headers\nfi\n\ncp ${PROJECT_DIR}/${PRODUCT_NAME}/UMAnalytics_Sdk_2.2.0.OpenUDID/MobClick.h $FRAMEWORKPATH/Headers\ncp ${PROJECT_DIR}/${PRODUCT_NAME}/UMAnalytics_Sdk_2.2.0.OpenUDID/libMobClickLibrary.a $FRAMEWORKPATH/UMengAnalytics";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8810631617AD074C009F77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810634A17AD074C009F77CD /* UMengAnalyticsANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8810634217AD074C009F77CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8810631917AD074C009F77CD /* UMengAnalyticsANE */;
+			targetProxy = 8810634117AD074C009F77CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8810634F17AD074C009F77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Volumes/Data/Applications/SDK/FlexSDK/include/;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		8810635017AD074C009F77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Volumes/Data/Applications/SDK/FlexSDK/include/;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		8810635217AD074C009F77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UMengAnalyticsANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengAnalyticsANE/UMengAnalyticsANE-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8810635317AD074C009F77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UMengAnalyticsANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengAnalyticsANE/UMengAnalyticsANE-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8810635517AD074C009F77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengAnalyticsANE/bin/UMengAnalyticsANE.swc;
+				PRODUCT_NAME = UMengAnalyticsANE;
+			};
+			name = Debug;
+		};
+		8810635617AD074C009F77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengAnalyticsANE/bin/UMengAnalyticsANE.swc;
+				PRODUCT_NAME = UMengAnalyticsANE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8810631517AD074C009F77CD /* Build configuration list for PBXProject "UMengAnalyticsANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8810634F17AD074C009F77CD /* Debug */,
+				8810635017AD074C009F77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8810635117AD074C009F77CD /* Build configuration list for PBXNativeTarget "UMengAnalyticsANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8810635217AD074C009F77CD /* Debug */,
+				8810635317AD074C009F77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8810635417AD074C009F77CD /* Build configuration list for PBXNativeTarget "UMengAnalyticsANE.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8810635517AD074C009F77CD /* Debug */,
+				8810635617AD074C009F77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8810631217AD074C009F77CD /* Project object */;
+}

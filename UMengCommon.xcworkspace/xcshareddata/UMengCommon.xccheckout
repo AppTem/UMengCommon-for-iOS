@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13140668-A82E-4263-B840-473C2A7EDC18</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UMengCommon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B09B55F5-2DE0-48D2-A1B8-F726D66CC334</key>
+		<string>https://github.com/AppTem/UMengCommon-for-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UMengCommon.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B09B55F5-2DE0-48D2-A1B8-F726D66CC334</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AppTem/UMengCommon-for-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B09B55F5-2DE0-48D2-A1B8-F726D66CC334</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B09B55F5-2DE0-48D2-A1B8-F726D66CC334</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UMengCommon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
