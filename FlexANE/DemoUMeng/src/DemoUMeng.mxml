@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="320" initialize="init(event)">
+	<fx:Script>
+		<![CDATA[
+			import com.apptem.umenganalytics.UMengAnalyticsANE;
+			import com.apptem.umengcommon.Constants;
+			import com.apptem.umengcommon.UMengCommonANE;
+			
+			import mx.events.FlexEvent;
+			
+			protected function OnClickButton1(event:MouseEvent):void
+			{
+				if ((UMengCommonANE.Instance.doShareText("Test") as Boolean) == false) {
+					trace("UMengCommonANE: 分享文字申请失败...");
+				}
+			}
+		
+			protected function OnClickButton2(event:MouseEvent):void
+			{	
+				if ((UMengCommonANE.Instance.doShareTextWithImageFile("Test","Documents/tiger.png") as Boolean) == false) {
+					trace("UMengCommonANE: 分享本地图片申请失败...");
+				}
+			}
+			
+			protected function OnClickButton3(event:MouseEvent):void
+			{
+				if ((UMengCommonANE.Instance.doShareTextWithUrl("Test","https://github.com/fluidicon.png",Constants.UMSocialUrlResourceTypeImage) as Boolean) == false) {
+					trace("UMengCommonANE: 分享网络资源申请失败...");
+				}
+			}
+			
+			private function statusHandler(event:StatusEvent):void
+			{
+				if (event.code == Constants.didFinishShareWithResult) {	// didFinishGetUMSocialDataInViewController
+					var Response:String = event.level;
+					Message.text = Message.text  +  Constants.didFinishShareWithResult + "," + Response + "\n";
+					trace(Response);
+				}
+				else {																				// 不可识别的事件
+					Message.text = Message.text  + event.code + "," + event.level + "\n";
+				}
+			}
+
+			protected function init(event:FlexEvent):void
+			{
+				// 初始化UMengAnalyticsANE接口定义
+				var AppKey:String = "51fb3f9d56240b4bcb03fc5d";
+				UMengAnalyticsANE.StartAnalytics(AppKey,"EmckTest");
+
+				// 初始化UMengCommonANE接口定义
+				// listener:Function  回调方法,接口所有回调集中在该方法中
+				// AppKey:String      AppKey由友盟平台分配
+				// ShareToSnsNames:String 分享的平台列表(定义在 com.umeng.sdk.Constants 中)
+				var ShareTo : String = "";
+				ShareTo += Constants.UMSocialShareToTencent;
+				ShareTo += Constants.UMSocialShareToSina;
+				UMengCommonANE.Init(statusHandler,AppKey,ShareTo);
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+	</fx:Declarations>
+	<s:Button x="10" y="10" click="OnClickButton1(event)" label="分享文字"/>
+	<s:Button x="10" y="110" click="OnClickButton2(event)" label="分享本地图片"/>
+	<s:Button x="10" y="210" click="OnClickButton3(event)" label="分享网络资源"/>
+	<s:TextArea id="Message" x="10" y="300" height="600" text=""/>
+</s:Application>

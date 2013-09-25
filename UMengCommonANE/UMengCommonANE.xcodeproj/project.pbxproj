@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8821B63817F2F6A2007A1348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B63717F2F6A2007A1348 /* Foundation.framework */; };
+		8821B63A17F2F6A2007A1348 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B63917F2F6A2007A1348 /* CoreFoundation.framework */; };
+		8821B63C17F2F6A2007A1348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B63B17F2F6A2007A1348 /* UIKit.framework */; };
+		8821B63E17F2F6A2007A1348 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B63D17F2F6A2007A1348 /* MobileCoreServices.framework */; };
+		8821B64017F2F6A3007A1348 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B63F17F2F6A3007A1348 /* CoreGraphics.framework */; };
+		8821B64217F2F6A3007A1348 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64117F2F6A3007A1348 /* SystemConfiguration.framework */; };
+		8821B64417F2F6A3007A1348 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64317F2F6A3007A1348 /* AudioToolbox.framework */; };
+		8821B64617F2F6A3007A1348 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64517F2F6A3007A1348 /* CFNetwork.framework */; };
+		8821B64817F2F6A3007A1348 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64717F2F6A3007A1348 /* QuartzCore.framework */; };
+		8821B64A17F2F6A3007A1348 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64917F2F6A3007A1348 /* OpenGLES.framework */; };
+		8821B64C17F2F6A3007A1348 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64B17F2F6A3007A1348 /* CoreLocation.framework */; };
+		8821B64E17F2F6A3007A1348 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64D17F2F6A3007A1348 /* CoreMedia.framework */; };
+		8821B65017F2F6A3007A1348 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B64F17F2F6A3007A1348 /* CoreVideo.framework */; };
+		8821B65217F2F6A3007A1348 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B65117F2F6A3007A1348 /* AVFoundation.framework */; };
+		8821B65417F2F6A3007A1348 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B65317F2F6A3007A1348 /* Security.framework */; };
+		8821B66417F2F6A3007A1348 /* UMengCommonANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821B66317F2F6A3007A1348 /* UMengCommonANE.m */; };
+		8821B67717F2FA2F007A1348 /* UMengCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B67617F2FA2F007A1348 /* UMengCommon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8821B65B17F2F6A3007A1348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8821B62C17F2F6A2007A1348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8821B63317F2F6A2007A1348;
+			remoteInfo = UMengCommonANE;
+		};
+		8821B65D17F2F6A3007A1348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8821B62C17F2F6A2007A1348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8821B65617F2F6A3007A1348;
+			remoteInfo = UMengCommonANE.ane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8821B63417F2F6A2007A1348 /* libUMengCommonANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUMengCommonANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8821B63717F2F6A2007A1348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8821B63917F2F6A2007A1348 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8821B63B17F2F6A2007A1348 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8821B63D17F2F6A2007A1348 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8821B63F17F2F6A3007A1348 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8821B64117F2F6A3007A1348 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8821B64317F2F6A3007A1348 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8821B64517F2F6A3007A1348 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8821B64717F2F6A3007A1348 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8821B64917F2F6A3007A1348 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8821B64B17F2F6A3007A1348 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8821B64D17F2F6A3007A1348 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8821B64F17F2F6A3007A1348 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8821B65117F2F6A3007A1348 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8821B65317F2F6A3007A1348 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8821B65717F2F6A3007A1348 /* UMengCommonANE.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = UMengCommonANE.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		8821B65A17F2F6A3007A1348 /* DemoUMeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUMeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8821B66117F2F6A3007A1348 /* UMengCommonANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengCommonANE-Prefix.pch"; sourceTree = "<group>"; };
+		8821B66217F2F6A3007A1348 /* UMengCommonANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengCommonANE.h; sourceTree = "<group>"; };
+		8821B66317F2F6A3007A1348 /* UMengCommonANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengCommonANE.m; sourceTree = "<group>"; };
+		8821B66517F2F6A3007A1348 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		8821B66617F2F6A3007A1348 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		8821B66717F2F6A3007A1348 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		8821B66817F2F6A3007A1348 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+		8821B67617F2FA2F007A1348 /* UMengCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMengCommon.framework; path = ../UMengCommonSDK/UMengCommon.embeddedframework/UMengCommon.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8821B63117F2F6A2007A1348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8821B64E17F2F6A3007A1348 /* CoreMedia.framework in Frameworks */,
+				8821B65417F2F6A3007A1348 /* Security.framework in Frameworks */,
+				8821B63A17F2F6A2007A1348 /* CoreFoundation.framework in Frameworks */,
+				8821B64C17F2F6A3007A1348 /* CoreLocation.framework in Frameworks */,
+				8821B63E17F2F6A2007A1348 /* MobileCoreServices.framework in Frameworks */,
+				8821B65017F2F6A3007A1348 /* CoreVideo.framework in Frameworks */,
+				8821B67717F2FA2F007A1348 /* UMengCommon.framework in Frameworks */,
+				8821B64617F2F6A3007A1348 /* CFNetwork.framework in Frameworks */,
+				8821B63C17F2F6A2007A1348 /* UIKit.framework in Frameworks */,
+				8821B64017F2F6A3007A1348 /* CoreGraphics.framework in Frameworks */,
+				8821B64A17F2F6A3007A1348 /* OpenGLES.framework in Frameworks */,
+				8821B64417F2F6A3007A1348 /* AudioToolbox.framework in Frameworks */,
+				8821B64217F2F6A3007A1348 /* SystemConfiguration.framework in Frameworks */,
+				8821B63817F2F6A2007A1348 /* Foundation.framework in Frameworks */,
+				8821B65217F2F6A3007A1348 /* AVFoundation.framework in Frameworks */,
+				8821B64817F2F6A3007A1348 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8821B62B17F2F6A2007A1348 = {
+			isa = PBXGroup;
+			children = (
+				8821B65F17F2F6A3007A1348 /* UMengCommonANE */,
+				8821B63617F2F6A2007A1348 /* Frameworks */,
+				8821B63517F2F6A2007A1348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8821B63517F2F6A2007A1348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8821B63417F2F6A2007A1348 /* libUMengCommonANE.a */,
+				8821B65717F2F6A3007A1348 /* UMengCommonANE.ane */,
+				8821B65A17F2F6A3007A1348 /* DemoUMeng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8821B63617F2F6A2007A1348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8821B67617F2FA2F007A1348 /* UMengCommon.framework */,
+				8821B63717F2F6A2007A1348 /* Foundation.framework */,
+				8821B63917F2F6A2007A1348 /* CoreFoundation.framework */,
+				8821B63B17F2F6A2007A1348 /* UIKit.framework */,
+				8821B63D17F2F6A2007A1348 /* MobileCoreServices.framework */,
+				8821B63F17F2F6A3007A1348 /* CoreGraphics.framework */,
+				8821B64117F2F6A3007A1348 /* SystemConfiguration.framework */,
+				8821B64317F2F6A3007A1348 /* AudioToolbox.framework */,
+				8821B64517F2F6A3007A1348 /* CFNetwork.framework */,
+				8821B64717F2F6A3007A1348 /* QuartzCore.framework */,
+				8821B64917F2F6A3007A1348 /* OpenGLES.framework */,
+				8821B64B17F2F6A3007A1348 /* CoreLocation.framework */,
+				8821B64D17F2F6A3007A1348 /* CoreMedia.framework */,
+				8821B64F17F2F6A3007A1348 /* CoreVideo.framework */,
+				8821B65117F2F6A3007A1348 /* AVFoundation.framework */,
+				8821B65317F2F6A3007A1348 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8821B65F17F2F6A3007A1348 /* UMengCommonANE */ = {
+			isa = PBXGroup;
+			children = (
+				8821B66217F2F6A3007A1348 /* UMengCommonANE.h */,
+				8821B66317F2F6A3007A1348 /* UMengCommonANE.m */,
+				8821B66017F2F6A3007A1348 /* Supporting Files */,
+			);
+			path = UMengCommonANE;
+			sourceTree = "<group>";
+		};
+		8821B66017F2F6A3007A1348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8821B66117F2F6A3007A1348 /* UMengCommonANE-Prefix.pch */,
+				8821B66517F2F6A3007A1348 /* extension.xml */,
+				8821B66617F2F6A3007A1348 /* platformoptions.xml */,
+				8821B66717F2F6A3007A1348 /* generateANE.sh */,
+				8821B66817F2F6A3007A1348 /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8821B63217F2F6A2007A1348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8821B63317F2F6A2007A1348 /* UMengCommonANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8821B66B17F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "UMengCommonANE" */;
+			buildPhases = (
+				8821B63017F2F6A2007A1348 /* Sources */,
+				8821B63117F2F6A2007A1348 /* Frameworks */,
+				8821B63217F2F6A2007A1348 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengCommonANE;
+			productName = UMengCommonANE;
+			productReference = 8821B63417F2F6A2007A1348 /* libUMengCommonANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8821B65617F2F6A3007A1348 /* UMengCommonANE.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8821B66E17F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "UMengCommonANE.ane" */;
+			buildPhases = (
+				8821B65517F2F6A3007A1348 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8821B65C17F2F6A3007A1348 /* PBXTargetDependency */,
+			);
+			name = UMengCommonANE.ane;
+			productName = UMengCommonANE.ane;
+			productReference = 8821B65717F2F6A3007A1348 /* UMengCommonANE.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8821B65917F2F6A3007A1348 /* DemoUMeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8821B67117F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "DemoUMeng" */;
+			buildPhases = (
+				8821B65817F2F6A3007A1348 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8821B65E17F2F6A3007A1348 /* PBXTargetDependency */,
+			);
+			name = DemoUMeng;
+			productName = DebugUMengCommonANEAIRApp;
+			productReference = 8821B65A17F2F6A3007A1348 /* DemoUMeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8821B62C17F2F6A2007A1348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 8821B62F17F2F6A2007A1348 /* Build configuration list for PBXProject "UMengCommonANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8821B62B17F2F6A2007A1348;
+			productRefGroup = 8821B63517F2F6A2007A1348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8821B63317F2F6A2007A1348 /* UMengCommonANE */,
+				8821B65617F2F6A3007A1348 /* UMengCommonANE.ane */,
+				8821B65917F2F6A3007A1348 /* DemoUMeng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8821B65517F2F6A3007A1348 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+		8821B65817F2F6A3007A1348 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8821B63017F2F6A2007A1348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8821B66417F2F6A3007A1348 /* UMengCommonANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8821B65C17F2F6A3007A1348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8821B63317F2F6A2007A1348 /* UMengCommonANE */;
+			targetProxy = 8821B65B17F2F6A3007A1348 /* PBXContainerItemProxy */;
+		};
+		8821B65E17F2F6A3007A1348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8821B65617F2F6A3007A1348 /* UMengCommonANE.ane */;
+			targetProxy = 8821B65D17F2F6A3007A1348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8821B66917F2F6A3007A1348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li ShengJun (3695H4968E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li ShengJun (3695H4968E)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Volumes/Data/Applications/SDK/FlexSDK/include/;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		8821B66A17F2F6A3007A1348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li ShengJun (3695H4968E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li ShengJun (3695H4968E)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Volumes/Data/Applications/SDK/FlexSDK/include/;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		8821B66C17F2F6A3007A1348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/UMengCommonANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Data/Project/AppTem/iOS/UMengCommon/UMengCommonSDK/UMengCommon.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonANE/UMengCommonANE-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8821B66D17F2F6A3007A1348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/UMengCommonANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Data/Project/AppTem/iOS/UMengCommon/UMengCommonSDK/UMengCommon.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonANE/UMengCommonANE-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8821B66F17F2F6A3007A1348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengCommonANE/bin/UMengCommonANE.swc;
+				PRODUCT_NAME = UMengCommonANE;
+			};
+			name = Debug;
+		};
+		8821B67017F2F6A3007A1348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengCommonANE/bin/UMengCommonANE.swc;
+				PRODUCT_NAME = UMengCommonANE;
+			};
+			name = Release;
+		};
+		8821B67217F2F6A3007A1348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li ShengJun (3695H4968E)";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengCommonANE/bin/UMengCommonANE.swc;
+				PRODUCT_NAME = DemoUMeng;
+			};
+			name = Debug;
+		};
+		8821B67317F2F6A3007A1348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Volumes/Data/Applications/SDK/FlexSDK;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li ShengJun (3695H4968E)";
+				NATIVEEXTENSION_SWC = /Volumes/Data/Project/AppTem/iOS/UMengCommon/FlexANE/UMengCommonANE/bin/UMengCommonANE.swc;
+				PRODUCT_NAME = DemoUMeng;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8821B62F17F2F6A2007A1348 /* Build configuration list for PBXProject "UMengCommonANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8821B66917F2F6A3007A1348 /* Debug */,
+				8821B66A17F2F6A3007A1348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8821B66B17F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "UMengCommonANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8821B66C17F2F6A3007A1348 /* Debug */,
+				8821B66D17F2F6A3007A1348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8821B66E17F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "UMengCommonANE.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8821B66F17F2F6A3007A1348 /* Debug */,
+				8821B67017F2F6A3007A1348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8821B67117F2F6A3007A1348 /* Build configuration list for PBXNativeTarget "DemoUMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8821B67217F2F6A3007A1348 /* Debug */,
+				8821B67317F2F6A3007A1348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8821B62C17F2F6A2007A1348 /* Project object */;
+}

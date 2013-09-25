@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8821B62317F2C896007A1348 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8821B61817F2C896007A1348 /* UMSocialLocalizable.strings */; };
+		8821B62417F2C896007A1348 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8821B61917F2C896007A1348 /* UMSocialSDKResourcesNew.bundle */; };
+		8821B62617F2C896007A1348 /* UMengCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8821B61B17F2C896007A1348 /* UMengCommon.framework */; };
+		8821B62A17F2DB50007A1348 /* Demo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8821B62917F2DB50007A1348 /* Demo.jpeg */; };
+		882A749617F19EA60076D9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A749517F19EA60076D9D3 /* Foundation.framework */; };
+		882A749817F19EA60076D9D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A749717F19EA60076D9D3 /* CoreGraphics.framework */; };
+		882A749A17F19EA60076D9D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A749917F19EA60076D9D3 /* UIKit.framework */; };
+		882A74A017F19EA60076D9D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 882A749E17F19EA60076D9D3 /* InfoPlist.strings */; };
+		882A74A217F19EA60076D9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A74A117F19EA60076D9D3 /* main.m */; };
+		882A74A617F19EA60076D9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A74A517F19EA60076D9D3 /* AppDelegate.m */; };
+		882A74B117F19EA60076D9D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882A74B017F19EA60076D9D3 /* Images.xcassets */; };
+		882A74B817F19EA60076D9D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A74B717F19EA60076D9D3 /* XCTest.framework */; };
+		882A74B917F19EA60076D9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A749517F19EA60076D9D3 /* Foundation.framework */; };
+		882A74BA17F19EA60076D9D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A749917F19EA60076D9D3 /* UIKit.framework */; };
+		882A74C217F19EA60076D9D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 882A74C017F19EA60076D9D3 /* InfoPlist.strings */; };
+		882A74C417F19EA60076D9D3 /* UMengCommonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A74C317F19EA60076D9D3 /* UMengCommonDemoTests.m */; };
+		882A74D417F1A3250076D9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882A74D217F1A3250076D9D3 /* ViewController.m */; };
+		882A74D517F1A3250076D9D3 /* Main_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A74D317F1A3250076D9D3 /* Main_iPhone.xib */; };
+		882A74D917F1A9760076D9D3 /* Main_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882A74D817F1A9760076D9D3 /* Main_iPad.xib */; };
+		88D4054F17F3275B00EF7383 /* UMSCommentDetailController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054717F3275B00EF7383 /* UMSCommentDetailController.nib */; };
+		88D4055017F3275B00EF7383 /* UMSCommentInputController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054817F3275B00EF7383 /* UMSCommentInputController.nib */; };
+		88D4055117F3275B00EF7383 /* UMSCommentInputControlleriPad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054917F3275B00EF7383 /* UMSCommentInputControlleriPad.nib */; };
+		88D4055217F3275B00EF7383 /* UMShareEditViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054A17F3275B00EF7383 /* UMShareEditViewController.nib */; };
+		88D4055317F3275B00EF7383 /* UMShareEditViewControlleriPad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054B17F3275B00EF7383 /* UMShareEditViewControlleriPad.nib */; };
+		88D4055417F3275B00EF7383 /* UMSLoginViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054C17F3275B00EF7383 /* UMSLoginViewController.nib */; };
+		88D4055517F3275B00EF7383 /* UMSnsAccountViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054D17F3275B00EF7383 /* UMSnsAccountViewController.nib */; };
+		88D4055617F3275B00EF7383 /* UMSShareListController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 88D4054E17F3275B00EF7383 /* UMSShareListController.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882A74BB17F19EA60076D9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882A748A17F19EA60076D9D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882A749117F19EA60076D9D3;
+			remoteInfo = UMengCommonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8821B61817F2C896007A1348 /* UMSocialLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		8821B61917F2C896007A1348 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		8821B61B17F2C896007A1348 /* UMengCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMengCommon.framework; path = ../UMengCommonSDK/UMengCommon.embeddedframework/UMengCommon.framework; sourceTree = "<group>"; };
+		8821B62917F2DB50007A1348 /* Demo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Demo.jpeg; sourceTree = "<group>"; };
+		882A749217F19EA60076D9D3 /* UMengCommonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMengCommonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882A749517F19EA60076D9D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		882A749717F19EA60076D9D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		882A749917F19EA60076D9D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		882A749D17F19EA60076D9D3 /* UMengCommonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UMengCommonDemo-Info.plist"; sourceTree = "<group>"; };
+		882A749F17F19EA60076D9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882A74A117F19EA60076D9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882A74A317F19EA60076D9D3 /* UMengCommonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMengCommonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		882A74A417F19EA60076D9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		882A74A517F19EA60076D9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		882A74B017F19EA60076D9D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		882A74B617F19EA60076D9D3 /* UMengCommonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengCommonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882A74B717F19EA60076D9D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		882A74BF17F19EA60076D9D3 /* UMengCommonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UMengCommonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		882A74C117F19EA60076D9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882A74C317F19EA60076D9D3 /* UMengCommonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengCommonDemoTests.m; sourceTree = "<group>"; };
+		882A74D117F1A3250076D9D3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		882A74D217F1A3250076D9D3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		882A74D317F1A3250076D9D3 /* Main_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main_iPhone.xib; sourceTree = "<group>"; };
+		882A74D817F1A9760076D9D3 /* Main_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main_iPad.xib; sourceTree = "<group>"; };
+		88D4054717F3275B00EF7383 /* UMSCommentDetailController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSCommentDetailController.nib; sourceTree = "<group>"; };
+		88D4054817F3275B00EF7383 /* UMSCommentInputController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSCommentInputController.nib; sourceTree = "<group>"; };
+		88D4054917F3275B00EF7383 /* UMSCommentInputControlleriPad.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSCommentInputControlleriPad.nib; sourceTree = "<group>"; };
+		88D4054A17F3275B00EF7383 /* UMShareEditViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMShareEditViewController.nib; sourceTree = "<group>"; };
+		88D4054B17F3275B00EF7383 /* UMShareEditViewControlleriPad.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMShareEditViewControlleriPad.nib; sourceTree = "<group>"; };
+		88D4054C17F3275B00EF7383 /* UMSLoginViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSLoginViewController.nib; sourceTree = "<group>"; };
+		88D4054D17F3275B00EF7383 /* UMSnsAccountViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSnsAccountViewController.nib; sourceTree = "<group>"; };
+		88D4054E17F3275B00EF7383 /* UMSShareListController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = UMSShareListController.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882A748F17F19EA60076D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882A749817F19EA60076D9D3 /* CoreGraphics.framework in Frameworks */,
+				882A749A17F19EA60076D9D3 /* UIKit.framework in Frameworks */,
+				8821B62617F2C896007A1348 /* UMengCommon.framework in Frameworks */,
+				882A749617F19EA60076D9D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882A74B317F19EA60076D9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882A74B817F19EA60076D9D3 /* XCTest.framework in Frameworks */,
+				882A74BA17F19EA60076D9D3 /* UIKit.framework in Frameworks */,
+				882A74B917F19EA60076D9D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8821B60F17F2C896007A1348 /* UMengCommon.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				8821B61017F2C896007A1348 /* Resources */,
+			);
+			name = UMengCommon.embeddedframework;
+			path = ../../UMengCommonSDK/UMengCommon.embeddedframework;
+			sourceTree = "<group>";
+		};
+		8821B61017F2C896007A1348 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88D4054717F3275B00EF7383 /* UMSCommentDetailController.nib */,
+				88D4054817F3275B00EF7383 /* UMSCommentInputController.nib */,
+				88D4054917F3275B00EF7383 /* UMSCommentInputControlleriPad.nib */,
+				88D4054A17F3275B00EF7383 /* UMShareEditViewController.nib */,
+				88D4054B17F3275B00EF7383 /* UMShareEditViewControlleriPad.nib */,
+				88D4054C17F3275B00EF7383 /* UMSLoginViewController.nib */,
+				88D4054D17F3275B00EF7383 /* UMSnsAccountViewController.nib */,
+				88D4054E17F3275B00EF7383 /* UMSShareListController.nib */,
+				8821B61817F2C896007A1348 /* UMSocialLocalizable.strings */,
+				8821B61917F2C896007A1348 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8821B62817F2DB50007A1348 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8821B62917F2DB50007A1348 /* Demo.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		882A748917F19EA60076D9D3 = {
+			isa = PBXGroup;
+			children = (
+				882A749B17F19EA60076D9D3 /* UMengCommonDemo */,
+				882A74BD17F19EA60076D9D3 /* UMengCommonDemoTests */,
+				882A749417F19EA60076D9D3 /* Frameworks */,
+				882A749317F19EA60076D9D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882A749317F19EA60076D9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882A749217F19EA60076D9D3 /* UMengCommonDemo.app */,
+				882A74B617F19EA60076D9D3 /* UMengCommonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882A749417F19EA60076D9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8821B61B17F2C896007A1348 /* UMengCommon.framework */,
+				882A749517F19EA60076D9D3 /* Foundation.framework */,
+				882A749717F19EA60076D9D3 /* CoreGraphics.framework */,
+				882A749917F19EA60076D9D3 /* UIKit.framework */,
+				882A74B717F19EA60076D9D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882A749B17F19EA60076D9D3 /* UMengCommonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				882A74A417F19EA60076D9D3 /* AppDelegate.h */,
+				882A74A517F19EA60076D9D3 /* AppDelegate.m */,
+				882A74D117F1A3250076D9D3 /* ViewController.h */,
+				882A74D217F1A3250076D9D3 /* ViewController.m */,
+				882A74D317F1A3250076D9D3 /* Main_iPhone.xib */,
+				882A74D817F1A9760076D9D3 /* Main_iPad.xib */,
+				882A74B017F19EA60076D9D3 /* Images.xcassets */,
+				8821B60F17F2C896007A1348 /* UMengCommon.embeddedframework */,
+				8821B62817F2DB50007A1348 /* Resource */,
+				882A749C17F19EA60076D9D3 /* Supporting Files */,
+			);
+			path = UMengCommonDemo;
+			sourceTree = "<group>";
+		};
+		882A749C17F19EA60076D9D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882A749D17F19EA60076D9D3 /* UMengCommonDemo-Info.plist */,
+				882A749E17F19EA60076D9D3 /* InfoPlist.strings */,
+				882A74A117F19EA60076D9D3 /* main.m */,
+				882A74A317F19EA60076D9D3 /* UMengCommonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882A74BD17F19EA60076D9D3 /* UMengCommonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				882A74C317F19EA60076D9D3 /* UMengCommonDemoTests.m */,
+				882A74BE17F19EA60076D9D3 /* Supporting Files */,
+			);
+			path = UMengCommonDemoTests;
+			sourceTree = "<group>";
+		};
+		882A74BE17F19EA60076D9D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882A74BF17F19EA60076D9D3 /* UMengCommonDemoTests-Info.plist */,
+				882A74C017F19EA60076D9D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882A749117F19EA60076D9D3 /* UMengCommonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882A74C717F19EA60076D9D3 /* Build configuration list for PBXNativeTarget "UMengCommonDemo" */;
+			buildPhases = (
+				882A748E17F19EA60076D9D3 /* Sources */,
+				882A748F17F19EA60076D9D3 /* Frameworks */,
+				882A749017F19EA60076D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengCommonDemo;
+			productName = UMengCommonDemo;
+			productReference = 882A749217F19EA60076D9D3 /* UMengCommonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882A74B517F19EA60076D9D3 /* UMengCommonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882A74CA17F19EA60076D9D3 /* Build configuration list for PBXNativeTarget "UMengCommonDemoTests" */;
+			buildPhases = (
+				882A74B217F19EA60076D9D3 /* Sources */,
+				882A74B317F19EA60076D9D3 /* Frameworks */,
+				882A74B417F19EA60076D9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882A74BC17F19EA60076D9D3 /* PBXTargetDependency */,
+			);
+			name = UMengCommonDemoTests;
+			productName = UMengCommonDemoTests;
+			productReference = 882A74B617F19EA60076D9D3 /* UMengCommonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882A748A17F19EA60076D9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UMengCommonDemo;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AppTem;
+				TargetAttributes = {
+					882A74B517F19EA60076D9D3 = {
+						TestTargetID = 882A749117F19EA60076D9D3;
+					};
+				};
+			};
+			buildConfigurationList = 882A748D17F19EA60076D9D3 /* Build configuration list for PBXProject "UMengCommonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882A748917F19EA60076D9D3;
+			productRefGroup = 882A749317F19EA60076D9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882A749117F19EA60076D9D3 /* UMengCommonDemo */,
+				882A74B517F19EA60076D9D3 /* UMengCommonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882A749017F19EA60076D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D4055617F3275B00EF7383 /* UMSShareListController.nib in Resources */,
+				88D4055017F3275B00EF7383 /* UMSCommentInputController.nib in Resources */,
+				8821B62317F2C896007A1348 /* UMSocialLocalizable.strings in Resources */,
+				882A74D917F1A9760076D9D3 /* Main_iPad.xib in Resources */,
+				88D4055517F3275B00EF7383 /* UMSnsAccountViewController.nib in Resources */,
+				8821B62A17F2DB50007A1348 /* Demo.jpeg in Resources */,
+				882A74D517F1A3250076D9D3 /* Main_iPhone.xib in Resources */,
+				88D4054F17F3275B00EF7383 /* UMSCommentDetailController.nib in Resources */,
+				882A74B117F19EA60076D9D3 /* Images.xcassets in Resources */,
+				882A74A017F19EA60076D9D3 /* InfoPlist.strings in Resources */,
+				88D4055317F3275B00EF7383 /* UMShareEditViewControlleriPad.nib in Resources */,
+				88D4055117F3275B00EF7383 /* UMSCommentInputControlleriPad.nib in Resources */,
+				88D4055417F3275B00EF7383 /* UMSLoginViewController.nib in Resources */,
+				8821B62417F2C896007A1348 /* UMSocialSDKResourcesNew.bundle in Resources */,
+				88D4055217F3275B00EF7383 /* UMShareEditViewController.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882A74B417F19EA60076D9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882A74C217F19EA60076D9D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882A748E17F19EA60076D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882A74A217F19EA60076D9D3 /* main.m in Sources */,
+				882A74D417F1A3250076D9D3 /* ViewController.m in Sources */,
+				882A74A617F19EA60076D9D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882A74B217F19EA60076D9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882A74C417F19EA60076D9D3 /* UMengCommonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882A74BC17F19EA60076D9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882A749117F19EA60076D9D3 /* UMengCommonDemo */;
+			targetProxy = 882A74BB17F19EA60076D9D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882A749E17F19EA60076D9D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882A749F17F19EA60076D9D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		882A74C017F19EA60076D9D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882A74C117F19EA60076D9D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882A74C517F19EA60076D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		882A74C617F19EA60076D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		882A74C817F19EA60076D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Data/Project/AppTem/iOS/UMengCommon/UMengCommonSDK/UMengCommon.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonDemo/UMengCommonDemo-Prefix.pch";
+				INFOPLIST_FILE = "UMengCommonDemo/UMengCommonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		882A74C917F19EA60076D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Data/Project/AppTem/iOS/UMengCommon/UMengCommonSDK/UMengCommon.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonDemo/UMengCommonDemo-Prefix.pch";
+				INFOPLIST_FILE = "UMengCommonDemo/UMengCommonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		882A74CB17F19EA60076D9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UMengCommonDemo.app/UMengCommonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonDemo/UMengCommonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UMengCommonDemoTests/UMengCommonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		882A74CC17F19EA60076D9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UMengCommonDemo.app/UMengCommonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMengCommonDemo/UMengCommonDemo-Prefix.pch";
+				INFOPLIST_FILE = "UMengCommonDemoTests/UMengCommonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882A748D17F19EA60076D9D3 /* Build configuration list for PBXProject "UMengCommonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882A74C517F19EA60076D9D3 /* Debug */,
+				882A74C617F19EA60076D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882A74C717F19EA60076D9D3 /* Build configuration list for PBXNativeTarget "UMengCommonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882A74C817F19EA60076D9D3 /* Debug */,
+				882A74C917F19EA60076D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882A74CA17F19EA60076D9D3 /* Build configuration list for PBXNativeTarget "UMengCommonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882A74CB17F19EA60076D9D3 /* Debug */,
+				882A74CC17F19EA60076D9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882A748A17F19EA60076D9D3 /* Project object */;
+}
