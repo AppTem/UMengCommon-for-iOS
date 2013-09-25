@@ -7,7 +7,7 @@ UMengCommon-for-iOS
 
 编译环境
 
-1.Mac OS + Xcode 4.6
+1.Mac OS + Xcode 5.0
 
 2.Flex Builder 4.7 + Flex SDK 4.9.1 + Air SDK 3.7 + FlashPlay 11.7
 
