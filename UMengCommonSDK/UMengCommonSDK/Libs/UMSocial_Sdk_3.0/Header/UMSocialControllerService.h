@@ -37,7 +37,6 @@
 //
 ///**
 // 分享完成的回调结果
-// 
 // */
 //-(void)didFinishShareWithResult:(UMSResponseCode)shareResult;
 //
